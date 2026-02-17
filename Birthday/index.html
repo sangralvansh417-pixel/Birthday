@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section id="intro-page" class="page active">
+            <h1 class="fade-in">Happy Birthday My Love! 💕✨</h1>
+            <p class="fade-in">To the most amazing woman in my life.</p>
+            <p class="quote fade-in">"Every moment with you is a gift, and today we celebrate the greatest gift of all - YOU!"</p>
+            <button id="begin-surprise-btn" class="glow-on-hover">Begin Your Surprise! 💕✨</button>
+        </section>
+
+        <section id="message-page" class="page hidden">
+            <div class="message-box">
+                <h2>Happy Birthday Madam Ji 🎉🥳</h2>
+                <p>Dear Madam Ji,</p>
+                <p>On this special day, I want to take a moment to celebrate not just your birthday, but the incredible person you are. Your presence lights up every room you enter, just like how you've lit up our lives.</p>
+                <p>Your kindness, wisdom, and beautiful spirit inspire everyone around you. You have this magical way of making ordinary moments feel extraordinary, and today is all about celebrating the magic that is uniquely you.</p>
+                <p>May this new year of your life be filled with endless joy, beautiful surprises, and all the happiness your heart can hold. You deserve nothing but the very best that life has to offer.</p>
+                <p class="signature">Wishing you the most wonderful birthday!</p>
+            </div>
+            <div class="button-group">
+                <button id="back-to-intro-btn" class="back-btn">← Back</button>
+                <button id="next-message-btn" class="next-btn">Next Page →</button>
+            </div>
+        </section>
+
+        <section id="cake-page" class="page hidden">
+            <h1>Let's Cut the Cake! 🎂</h1>
+            <div class="cake-container">
+                <div id="cake" class="cake">
+                    <div class="candle"></div>
+                    <div class="tier tier-3"></div>
+                    <div class="tier tier-2"></div>
+                    <div class="tier tier-1"></div>
+                    <div class="sprinkles"></div>
+                </div>
+            </div>
+            <div class="button-group">
+                <button id="back-to-message-btn" class="back-btn">← Back</button>
+                <button id="next-cake-btn" class="next-btn">Next Page →</button>
+            </div>
+        </section>
+
+        <section id="gallery-page" class="page hidden">
+            <h1>Mirror of Memories 💕</h1>
+            <div class="gallery-container">
+                <!-- ...existing code... -->
+            <div id="gallery-image" class="gallery-image-box">
+             <p id="gallery-text">Click to unlock memories</p>
+            <img id="current-photo" src="" alt="Memory photo" class="hidden">
+            <span id="next-photo-btn" class="arrow right hidden">→</span>
+            <span id="prev-photo-btn" class="arrow left hidden">←</span>
+            </div>
+<!-- ...existing code... -->
+            </div>
+            <div class="button-group">
+                <button id="back-to-cake-btn" class="back-btn">← Back</button>
+                <button id="next-gallery-btn" class="next-btn">Next Page →</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
