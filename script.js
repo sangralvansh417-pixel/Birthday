@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // Photo Gallery
-    const photos = ['Birthday/images/IMG20221231164650.jpg', 'Birthday/images/IMG20221231164710.jpg', 'Birthday/images/IMG20221231164744.jpg', 'Birthday/images/IMG_20251223_203530_744.jpg']; // Replace with your image filenames
+    const photos = ['images/IMG20221231164650.jpg', 'images/IMG20221231164710.jpg', 'images/IMG20221231164744.jpg', 'images/IMG_20251223_203530_744.jpg']; // Replace with your image filenames
     let currentPhotoIndex = 0;
 
     galleryBox.addEventListener('click', () => {
@@ -111,4 +111,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
 
